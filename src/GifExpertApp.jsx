@@ -13,9 +13,10 @@ export const GifExpertApp = () => {
         setCategories([   newCategory,...categories ])
     }
 
-  return (
+  return ( 
     <>
-    GifExpertApp
+    <h3>GifExpertApp</h3>
+    
     <AddCategory  onNewCategory={onAddCategory}/>
     
 
